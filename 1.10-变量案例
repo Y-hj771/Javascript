@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var myname = '小明';
+        var address = '幸福家园';
+        var age = 19;
+        var email = '2511623116@qq.com';
+        var gz = 13000;
+        console.log(myname);
+        console.log(address);
+        console.log(age);
+        console.log(email);
+        console.log(gz);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
