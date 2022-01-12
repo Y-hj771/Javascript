@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 内嵌式 -->
+    <!-- <script>
+        alert('吃屁吧你');
+    </script> -->
+    <!-- 外联式 -->
+    <script src="./01.js"></script>
+</head>
+<body>
+    <!-- 行内式的Js 直接写到元素内部 -->
+    <!-- <input type="button" value="死漂亮" onclick="alert('金佩蓉')"> -->
+</body>
+</html>
