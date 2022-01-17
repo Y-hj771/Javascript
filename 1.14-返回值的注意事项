@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //1.return 终值函数
+        // function getSum(num1,num2)
+        // {
+        //     return num1+num2;//return 后面的函数不会再执行
+        //     alert('我不见了');
+        // }
+        // console.log(getSum(1,4));
+        //2.有多个返回值时只能返回一个，返回最后一个；
+        //3.可以返回一个数组
+        function getResult(num1,num2)
+        {   
+            return [num1+num2,num1-num2,num1*num2,num1/num2];
+        }
+        var re = getResult(1,5);
+        console.log(re);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
