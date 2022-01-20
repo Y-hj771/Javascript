@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Math对象随机数方法  random() 返回一个随机的小数 0 =< x < 1
+        //这个方法里面不跟参数
+        //代码验证
+        console.log(Math.random());
+        //我们想要得到两个数的随机数  并且 包含这两个数
+        //Math.floor(Math.random() * (max - min + 1) + min)
+        function getRandom(min, max){
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        console.log(getRandom(1,7));
+        //随机点名
+        var arr = ['a','b','c','f','e','g'];
+        console.log(arr[getRandom(0,5)]);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
