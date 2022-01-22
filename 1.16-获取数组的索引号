@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //indexof(数组元素) 作用就是返回该数组元素的索引号
+        //他只返回满足条件的第一个索引号
+        //如果没有该元素就返回 -1
+        var arr = [1,2,3,4,5,6];
+        console.log(arr.indexOf(5));
+        console.log(arr.lastIndexOf(4));//从后往前找
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
