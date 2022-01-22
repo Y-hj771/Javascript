@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //添加数组元素  push是在数组的末尾添加
+        var arr = [1,2,3];
+        // arr.push('a');
+        // console.log(arr);
+        // console.log(arr.push('a'));//返回的是数组的长度
+        //unshift 是在数组的前面添加
+        arr.unshift('s');
+        console.log(arr);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
