@@ -33,6 +33,20 @@
         //     }
         // }
         // console.log(o);
+        //2.遍历对象
+        var max = 0;
+        var ch = '';
+        for(var k in o){
+            //k得到的是属性名
+            //o[k]得到的是属性值
+            if(o[k]>max)
+            {
+                max = o[k];
+                ch = k;
+            }
+        }
+        console.log(max);
+        console.log('最多的字符是:'+ch);
     </script>
 </head>
 <body>
