@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //根据str.indexof('要查找的字符'，起始位置)
+        var str = '你好中国好';
+        console.log(str.indexOf('你'));
+        console.log(str.indexOf('好',2));//从索引号2开始
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
