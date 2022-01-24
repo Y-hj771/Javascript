@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //字符串操作方法
+        //1.str.concat('字符串1','字符串2'....)
+        var str = 'stu';
+        console.log(str.concat('dy'));
+
+        //2.str.substr('截取的起始位置','截取几个字符')；
+        var str1 = '你是我的小苹果';
+        console.log(str1.substr(3,4));//第一个数字是索引号 后面的是从索引号开始一共几个字符
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
