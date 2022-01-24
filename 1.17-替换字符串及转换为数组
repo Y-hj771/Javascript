@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // //1.替换字符replace('被替换的字符'，'替换为的字符')只会替换一个字符
+        // var str = 'asdajsdak';
+        // console.log(str.replace('k','s'));
+        // //有一个字符串要求替换里面所有的a
+        // var str1 = 'sabdkfbkjdnajsfhbsaf';
+        // while(str1.indexOf('a') !== -1)
+        // {
+        //     str1 = str1.replace('a','@');
+        // }
+        // console.log(str1);
+        //2.字符转换为数组 split('分隔符')
+        var str2 = 'ad,j,fah,sf';
+        console.log(str2.split(','));
+        var str3 = 'sd*ad*fd*s';
+        console.log(str3.split('*'));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
